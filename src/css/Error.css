@@ -1,0 +1,7 @@
+.error-page {
+    font-size: 10vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

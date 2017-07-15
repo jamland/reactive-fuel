@@ -1,0 +1,44 @@
+.fuel-sticker {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    display: inline-block;
+}
+.fuel-sticker.avgas {
+    background: red;
+}
+.fuel-sticker.jetfuel {
+    background: black;
+}
+
+.card.taxes-n-fees {
+    background: #f0f0f0;
+    padding: 20px;
+    font-size: 14px;
+    color: #858384;
+    border: none;
+}
+.card.taxes-n-fees .d-flex {
+    font-size: 16px;
+    color: black;
+    margin: 5px 0px;
+}
+.card.taxes-n-fees h2.d-flex {
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,.25);
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+.card.taxes-n-fees .d-flex > :first-child {
+    flex: 1;
+}
+.card.taxes-n-fees .d-flex > :not(:first-child) {
+    flex: 0;
+    white-space: nowrap;
+}
+
+.hidden.show {
+    display: block !important;
+}

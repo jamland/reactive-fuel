@@ -1,0 +1,50 @@
+.card.airport-card {
+    padding: 40px 20px 20px;
+}
+
+.airport-hero {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    background-position-y: 50%;
+    background-color: #4776b7;
+}
+
+.airport-hero::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: rgba(0,0,0,.15);
+}
+.airport-hero::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    display: block;
+    content: '';
+    background: linear-gradient(rgba(255,255,255,0), #edeef3);
+}
+
+.airport-description {
+    color: white;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    line-height: 1em;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.airport-description p {
+    margin: 0;
+}

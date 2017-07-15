@@ -1,0 +1,15 @@
+.handlers-list-item {
+    text-align: left;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 30px 0;
+}
+.handlers-list-item:last-child {
+    border: none;
+}
+.handlers-list-item h2 {
+    font-size: 18px;
+    margin: 0;
+}
+.handlers-list-item .view-info {
+    font-size: 14px;
+}

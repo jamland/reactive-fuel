@@ -1,0 +1,49 @@
+.App {
+  text-align: left;
+}
+
+body .hidden {
+    display: none !important;
+}
+
+body svg {
+    max-width: initial;
+}
+
+@media (max-width: 991px) {
+    .btn-lg-block {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .btn-block + .btn-lg-block,
+    .btn-lg-block + .btn-block,
+    .btn-lg-block + .btn-lg-block {
+    }
+}
+
+.rocket-loader {
+  transform: scale(1);
+  transition: transform .3s linear;
+  margin-top: 200px;
+}
+.rocket-loader.hide {
+    transform: scale(0);
+}
+.rocket-loader svg {
+    width: 200px;
+    margin: 0 auto 0;
+    display: block;
+    position: relative;
+    opacity: .2;
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    animation-duration: 1.7s;
+}
+
+@keyframes blinker {
+  0% { opacity: .2; }
+  50% { opacity: .02; }
+  100% { opacity: .2; }
+}
